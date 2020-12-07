@@ -16,8 +16,6 @@
         displayGreeting();
         fetchWeather();
         displayRSSFeed();
-        var mymap = drawMap()
-        listSheet(mymap);
 
       }
       // display good morning, afternoon or evening based on the time
@@ -34,17 +32,7 @@
         }
         document.getElementById("greeting").innerHTML = "Good " + description + ".";
       }
-      // get weather data from openweathermap and display the current temp
-      function fetchWeather() {
-        fetch("https://api.openweathermap.org/data/2.5/weather?zip=85719,US&appid=de418a3d5364a27aab35d6181cd08113&units=imperial")
-        .then(function(resp) { return resp.json() })
-        .then(function(data) {
-          document.getElementById("weather").innerHTML = "It is currently " + data.main.temp + "&#730; in Tucson, AZ.";
-        })
-        .catch(function() {
-          document.getElementById("weather").innerHTML = "Error in fetchWeather function";
-        });
-      }
+
 
       function displayRSSFeed() {
         // fetch an RSS feed and display the title and description
@@ -63,24 +51,6 @@
             }
           }
         });
-      }
-
-      function drawMap() {
-      // draw a map using leafletjs and tiles from mapbox
-      var mymap = L.map('mapid').setView([32.253697, -110.963746], 11.5);
-      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-      maxZoom: 18,
-      id: 'mapbox/streets-v11',
-      tileSize: 512,
-      zoomOffset: -1,
-      accessToken: 'pk.eyJ1IjoiamFja3NvbnBldGVycyIsImEiOiJja2cwNW1leTUwcXgyMnlyMHZvYzZnM2ZhIn0.Z27L1jy8zPMUDG1qHs0frw'
-      }).addTo(mymap);
-      return mymap;
-      }
-
-      function addPin(mymap, lat, lon, name) {
-        L.marker([lat, lon]).addTo(mymap).bindPopup(name);
       }
 
       function listSheet(mymap) {
@@ -113,7 +83,6 @@
 
   <body>
     <div id="greeting"></div>
-    <div id="weather"></div>
 
    <center>
       <div class="name_container">

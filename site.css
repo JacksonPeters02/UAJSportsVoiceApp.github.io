@@ -88,23 +88,6 @@ img {
   margin: 1em;
 }
 
-.rss_title {
-  font-size: 1.25em;
-}
-
-.rss_description{
-  padding-top: 2px;
-  padding-bottom: 10px;
-}
-
-a:link {
-  color: #585858
-}
-
-a:hover {
-  color:  #11F2E0
-}
-
 .NHL_news_title{
   font-size: 2.5em;
   font-style: italic;

@@ -1,4 +1,4 @@
-.biobox {
+.descriptionbox {
   border-width: 2px;
   border-style: solid;
   border-color: black;
@@ -6,13 +6,13 @@
   padding: 10px 10px 10px 10px;
 }
 
-.newstitle {
+.functionsheading {
   background-color: #41980a;
   padding: 5px 5px 5px 5px;
   margin-bottom: 10px;
 }
 
-.newssite {
+.functiondescription {
   border-style: solid;
   border-color: #928E8E;
   background-color: white;
@@ -41,7 +41,7 @@ img {
   max-height: 100%;
 }
 
-.name_container {
+.appname_container {
   background-color: white;
   width: 344px;
   font-size: 2.5em;
@@ -63,7 +63,7 @@ img {
   margin: 20px 20px 20px 20px;
 }
 
-.bio_container {
+.description_container {
   background-color: white;
   width: 344px;
   float: left;
@@ -80,39 +80,11 @@ img {
 }
 
 #greeting {
-  font-size: 2em;
+  font-size: 1em;
   margin: 1em;
 }
 
-.rss_title {
-  font-size: 1.25em;
-}
-
-.rss_description{
-  padding-top: 2px;
-  padding-bottom: 10px;
-}
-
-a:link {
-  color: #585858
-}
-
-a:hover {
-  color:  #11F2E0
-}
-
-.NHL_news_title{
+.What_can_it_do{
   font-size: 2.5em;
   font-style: italic;
-}
-
-.cell {
-border: 1px solid black;
-padding: 5px 5px 5px 5px;
-margin: 10px 10px 10px 10px;
-}
-
-.cell_name{
-font-weight: bold;
-color: red;
 }

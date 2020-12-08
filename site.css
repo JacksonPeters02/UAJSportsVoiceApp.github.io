@@ -1,25 +1,17 @@
-
-.biobox {
-  border-width: 2px;
-  border-style: solid;
-  border-color: black;
-  width: 320px;
-  padding: 10px 10px 10px 10px;
-}
-
-.newstitle {
+.howtousetitle {
   background-color: #448A26;
   padding: 5px 5px 5px 5px;
   margin-bottom: 10px;
 }
 
-
-.newssite {
+.featuredescription {
   border-style: solid;
+  height: 220px;
   border-color: #928E8E;
   background-color: white;
   padding: 7.5px 5px 7.5px 5px;
   margin-bottom: 10px;
+  margin-left: 10px;
   margin-right: 10px;
   float: left;
   border-width: 2px;
@@ -45,7 +37,8 @@ img {
   max-height: 100%;
 }
 
-.name_container {
+.appname_container {
+  font-style: oblique;
   background-color: white;
   width: 344px;
   font-size: 2.5em;
@@ -67,7 +60,7 @@ img {
   margin: 20px 20px 20px 20px;
 }
 
-.bio_container {
+.maindescription_container {
   background-color: white;
   width: 344px;
   float: left;
@@ -76,30 +69,6 @@ img {
   padding: 0px 20px 20px 20px;
 }
 
-.news_container {
-  background-color: white;
-  width: 344px;
-  padding: 20px 20px 20px 20px;
-  margin-bottom: 10px;
-}
-
-#greeting {
-  font-size: 2em;
-  margin: 1em;
-}
-
-.NHL_news_title{
+.featuredescriptions_title{
   font-size: 2.5em;
-  font-style: italic;
-}
-
-.cell {
-border: 1px solid black;
-padding: 5px 5px 5px 5px;
-margin: 10px 10px 10px 10px;
-}
-
-.cell_name{
-font-weight: bold;
-color: red;
 }

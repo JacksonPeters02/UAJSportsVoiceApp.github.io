@@ -20,6 +20,11 @@
   margin-bottom: 10px;
   margin-right: 10px;
   float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  width: 320px;
+  padding: 10px 10px 10px 10px;
 }
 
 .clear {
@@ -78,19 +83,6 @@ img {
   font-size: 2em;
   margin: 1em;
 }
-#weather {
-  font-size: 2em;
-  margin: 1em;
-}
-
-#rss_items {
-  border: 10px;
-  border-style: groove;
-  border-color: #11F2E0;
-  padding: 4px 4px 4px 4px;
-  margin: 2.5px 2.5px 2.5px 2.5px;
-
-}
 
 .rss_title {
   font-size: 1.25em;
@@ -123,21 +115,4 @@ margin: 10px 10px 10px 10px;
 .cell_name{
 font-weight: bold;
 color: red;
-}
-
-.cell_address{
-
-}
-
-.cell_url{
-
-}
-
-.cell_phone{
-
-}
-
-#mapid {
-height: 640px;
-width: 90%;;
 }

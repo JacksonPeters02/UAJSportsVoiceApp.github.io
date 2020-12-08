@@ -7,13 +7,13 @@
   padding: 10px 10px 10px 10px;
 }
 
-.newstitle {
+.FeatureTitle {
   background-color: #41980a;
   padding: 5px 5px 5px 5px;
   margin-bottom: 10px;
 }
 
-.newssite {
+.featurebox {
   border-style: solid;
   border-color: #928E8E;
   background-color: white;
@@ -102,7 +102,7 @@ a:hover {
   color:  #11F2E0
 }
 
-.NHL_news_title{
+.whatcanitdotitle{
   font-size: 2.5em;
   font-style: italic;
 }
